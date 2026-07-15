@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+
+logs/
+logs_extra_hparam/
+
+results/
+*.pth
+*.pt
+*.ckpt
+
+.env
+.venv/
+venv/
+
+.DS_Store
