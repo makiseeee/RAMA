@@ -297,11 +297,11 @@ def parse_args() -> argparse.Namespace:
     )
 
     parser.add_argument("--model_name", type=str, default="cmcm")
-    parser.add_argument("--root_dataset_dir", type=str, default="/home/oydq/dataset/Dateset")
+    parser.add_argument("--root_dataset_dir", type=str, default="/home/xiewenbo/Dataset/multimodal_dataset/dataset")
     parser.add_argument("--model_save_dir", type=str, default="results/models_hparam_sensitivity_extra")
     parser.add_argument("--res_save_dir", type=str, default="results/hparam_sensitivity_extra")
     parser.add_argument("--log_dir", type=str, default="logs_extra_hparam")
-    parser.add_argument("--pretrain_lm", type=str, default="/home/oydq/chatglm3-6b-base")
+    parser.add_argument("--pretrain_lm", type=str, default="/home/xiewenbo/LLM/chatglm3-6b-base")
     parser.add_argument("--num_workers", type=int, default=0)
     parser.add_argument("--gpu_ids", type=int, nargs="*", default=[])
     parser.add_argument("--tune_mode", action="store_true")

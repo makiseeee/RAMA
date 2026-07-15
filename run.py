@@ -266,12 +266,12 @@ def parse_args():
     parser.add_argument('--datasetName', type=str, default='sims', help='support mosi/mosei/simsv2/iemocap/meld/cherma')
     
     # Path Arguments
-    parser.add_argument('--root_dataset_dir', type=str, default='/home/oydq/dataset/Dateset', help='Location of the root directory')
+    parser.add_argument('--root_dataset_dir', type=str, default='/home/xiewenbo/Dataset/multimodal_dataset/dataset', help='Location of the root directory')
     parser.add_argument('--num_workers', type=int, default=0, help='num workers of loading data')
     parser.add_argument('--model_save_dir', type=str, default='results/models', help='path to save results.')
     parser.add_argument('--res_save_dir', type=str, default='results/results', help='path to save results.')
     
-    parser.add_argument('--pretrain_LM', type=str, default='/home/oydq/chatglm3-6b-base', help='path to load pretrain LLM.')
+    parser.add_argument('--pretrain_LM', type=str, default='/home/xiewenbo/LLM/chatglm3-6b-base', help='path to load pretrain LLM.')
     
     parser.add_argument('--gpu_ids', type=list, default=[], help='indicates the gpus will be used')
     

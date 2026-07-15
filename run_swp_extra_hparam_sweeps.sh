@@ -19,8 +19,8 @@ ACCEPT_MIN_METRIC="${ACCEPT_MIN_METRIC:-0.82}"
 # Also retry if a补点 exceeds the chosen best point.
 ACCEPT_MAX_METRIC="${ACCEPT_MAX_METRIC:-0.8462045086117568}"
 
-ROOT_DATASET_DIR="${ROOT_DATASET_DIR:-/home/oydq/dataset/Dateset}"
-PRETRAIN_LM="${PRETRAIN_LM:-/home/oydq/chatglm3-6b-base}"
+ROOT_DATASET_DIR="${ROOT_DATASET_DIR:-/home/xiewenbo/Dataset/multimodal_dataset/dataset}"
+PRETRAIN_LM="${PRETRAIN_LM:-/home/xiewenbo/LLM/chatglm3-6b-base}"
 MODEL_SAVE_DIR="${MODEL_SAVE_DIR:-results/models_hparam_sensitivity_extra}"
 RES_SAVE_DIR="${RES_SAVE_DIR:-results/hparam_sensitivity_extra}"
 LOG_DIR="${LOG_DIR:-logs_extra_hparam}"
